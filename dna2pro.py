@@ -2,7 +2,7 @@ from Bio import SeqIO
 
 DNA_FILE_NAME = "dna-example.fasta"
 PRO_FILE_NAME = "proteins.fasta"
-FILTERING = 200
+FILTERING = 100
 
 
 with open(PRO_FILE_NAME, "w") as output_handle:
